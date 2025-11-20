@@ -71,7 +71,7 @@ with st.sidebar:
     st.header("설정")
     if st.button("대화 초기화 (New Chat)"):
         st.session_state.messages = [st.session_state.messages[0]]
-        st.experimental_rerun()
+        st.success("대화가 초기화되었습니다.")
 
 
 # --- Display chat history ------------------------------------------------------
